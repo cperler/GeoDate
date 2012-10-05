@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/layoutContainer">
+
+    <com.google.android.maps.MapView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0MIcuF23Qfh1BsDdpjw_iMLsowoLkE8tdrzUNxg"
+    android:id="@+id/mapView"/>
+    
+    <LinearLayout
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:orientation="horizontal"
+android:layout_alignParentTop="true" android:id="@+id/widgetMapDetails">
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Search Radius" android:layout_gravity="center_vertical" android:id="@+id/textRadius"></TextView>
+
+
+
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3mi" android:textStyle="normal" android:layout_gravity="center_vertical" android:id="@+id/editRadius" android:width="55px"></EditText>
+<Button android:text="Search" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/buttonSearch"></Button>
+</LinearLayout>
+  <!--  <LinearLayout
+    android:id="@+id/zoomview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/mapview"
+    android:layout_centerHorizontal="true"
+/> -->
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layoutContainer">
+<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/row1">
+
+<include android:layout_width="fill_parent" layout="@layout/profile" />
+
+
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="200px" android:id="@+id/row2"><TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Alexia:  Hey baby, how much  money you got?" android:height="250px" android:id="@+id/textChat"></TextView>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row3"><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="I got enough to pay for yo ass" android:id="@+id/editSend"></EditText>
+</TableRow>
+</TableLayout>

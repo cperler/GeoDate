@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Used in App/SearchInvoke.java -->
+    <string-array name="search_menuModes">
+        <item>Search Key</item>
+        <item>Menu Item</item>
+        <item>Type-To-Search</item>
+        <item>Disabled</item>
+    </string-array>
+    
+    <!-- Used in app/dialog examples -->
+    <string-array name="select_dialog_items">
+        <item>Command one</item>
+        <item>Command two</item>
+        <item>Command three</item>
+        <item>Command four</item>
+    </string-array>
+    
+    <string-array name="ignore_locations">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Church</item>
+    </string-array>
+    
+    <string-array name="location_trigger_prefs">
+        <item>Always show matches</item>
+        <item>Don't match in ignore areas</item>
+        <item>Only show matches when app active</item>
+    </string-array>
+    
+    <string-array name="ten_percent">
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    
+    <string-array name="hours">
+        <item>1hr</item>
+        <item>2hr</item>
+        <item>3hr</item>
+        <item>4hr</item>
+        <item>5hr</item>
+        <item>6hr</item>
+        <item>7hr</item>
+        <item>8hr</item>
+        <item>9hr</item>
+        <item>10hr</item>
+    </string-array>
+    
+    <string-array name="mock_times">
+        <item>11pm-7am</item>
+        <item>9am-5pm</item>
+    </string-array>
+    
+    
+    <string-array name="select_dialog_items2">
+        <item>Map</item>
+        <item>Satellite</item>
+        <item>Traffic</item>
+        <item>Street view</item>
+    </string-array>
+    
+    <string-array name="select_dialog_items3">
+        <item>Every Monday</item>
+        <item>Every Tuesday</item>
+        <item>Every Wednesday</item>
+        <item>Every Thursday</item>
+        <item>Every Friday</item>
+        <item>Every Saturday</item>
+        <item>Every Sunday</item>
+    </string-array>
+    
+    <!-- Used in app/menu examples -->
+    <string-array name="entries_list_preference">
+        <item>Alpha Option 01</item>
+        <item>Beta Option 02</item>
+        <item>Charlie Option 03</item>  
+    </string-array>
+
+    <!-- Used in app/menu examples -->
+    <string-array name="entryvalues_list_preference">
+        <item>alpha</item>
+        <item>beta</item>
+        <item>charlie</item>  
+    </string-array>
+    
+    <string-array name="ethnicities_list">
+    	<item>African American</item>
+		<item>Asian</item>
+		<item>Caucasian</item>
+		<item>East Indian</item>
+		<item>Hispanic/Latino</item>
+		<item>Middle Eastern</item>
+		<item>Native American</item>
+		<item>Pacific Islander</item>
+		<item>Inter-Racial</item>
+		<item>Other</item>   
+    </string-array>
+    
+    <!-- Used in search location prefs -->
+     <string-array name="search_locale_visible">
+        <item>Everyone</item>
+        <item>Only matches</item>
+    </string-array>
+    
+    <string-array name="gender_informal">
+    	<item>man</item>
+    	<item>woman</item>
+    </string-array>
+    
+    <string-array name="search_radius">
+        <item>1mi</item>
+        <item>3mi</item>
+        <item>5mi</item>
+        <item>10mi</item>
+        <item>25mi</item>
+    </string-array>
+    
+    <string-array name="search_proximity">
+        <item>5min</item>
+        <item>15min</item>
+        <item>30min</item>
+    </string-array>
+    
+    <string-array name="education_level">
+    	<item>At least some High School</item>
+		<item>At least High School Grad</item>
+		<item>At least some College</item>
+		<item>At least College Grad</item>
+		<item>At least Post-Graduate</item>    	
+    </string-array>
+    
+    <string-array name="income_level">
+    	<item>At least $25,000</item>
+		<item>At least $35,000</item>
+		<item>At least $50,000</item>
+		<item>At least $75,000</item>
+		<item>At least $100,000</item>
+		<item>At least $150,000</item>    	
+    </string-array>
+    
+    <string-array name="saved_searches">
+    	<item>For Love</item>
+    	<item>For Money</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layoutContainer">
+
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row1"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show my profile to:" android:id="@+id/textDisplayLocales"></TextView>
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/search_locale_visible" android:id="@+id/spinnerDisplayLocales"></Spinner>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row2"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show me profiles for:" android:id="@+id/textVisibleLocales"></TextView>
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/search_locale_visible" android:id="@+id/spinnerVisibleLocales"></Spinner>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row3"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stationary search radius:" android:id="@+id/textSearchRadius"></TextView>
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/search_radius" android:id="@+id/spinnerSearchRadius"></Spinner>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row4"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Moving search proximity:" android:id="@+id/textSearchProximity"></TextView>
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/search_proximity" android:id="@+id/spinnerSearchProximity"></Spinner>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="50px" android:id="@+id/row5"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply" android:layout_span="2" android:layout_gravity="bottom|center" android:id="@+id/buttonApply"></Button>
+</TableRow>
+
+</TableLayout>

@@ -1,0 +1,15 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/layoutContainer"><TextView android:layout_height="wrap_content" android:text="GeoDate" android:textSize="18pt" android:textStyle="bold" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_margin="30px" android:id="@+id/textGeoDate"></TextView>
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:layout_marginLeft="5pt" android:layout_marginRight="5pt" android:layout_marginTop="5pt" android:layout_marginBottom="15pt" android:id="@+id/tableUserDetails"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableUserDetailsRowTop"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User Name:" android:layout_marginRight="10pt" android:id="@+id/textUserName"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aBigHo" android:id="@+id/editUserName"></EditText></TableRow><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableUserDetailsRowMid"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10pt" android:text="Password:" android:id="@+id/textPassword"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aBigHo" android:inputType="textPassword" android:id="@+id/editPassword"></EditText></TableRow><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableUserDetailsRowBottom"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10pt" android:visibility="invisible" android:id="@+id/textEmptySpace"></TextView><CheckBox android:layout_width="wrap_content" android:text="  Remember Me?" android:layout_height="40px" android:checked="true" android:id="@+id/checkBoxRememberMe"></CheckBox>
+</TableRow></TableLayout>
+
+
+
+
+
+
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/linearLayoutButtons"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Register" android:id="@+id/buttonRegister"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="Login!" android:id="@+id/buttonLogin"></Button></LinearLayout>
+
+
+</LinearLayout>

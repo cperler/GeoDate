@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TableRow
+android:id="@+id/widget29"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="MockupSearchListResults"
+android:clickable="true" android:id="@+id/go_searchList">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_location_trigs" android:text="Location Triggers"></Button>
+</TableRow>
+<TableRow
+android:id="@+id/widget30"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="MockupSearchMapResult" android:id="@+id/go_searchMap">
+</Button>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_timeTrigs" android:text="Time Triggers"></Button>
+</TableRow><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Communication" android:id="@+id/go_persComm"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_help" android:text="Help"></Button>
+</TableRow>
+
+<TableRow
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Profile List Item"
+android:id="@+id/go_profileListItem">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quick Search" android:id="@+id/go_quickSearch"></Button>
+</TableRow>
+
+<TableRow
+android:id="@+id/widget32"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Full Profile"
+android:id="@+id/go_fullProfile">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_basicSearch" android:text="Custom Search"></Button>
+</TableRow><TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/widget33">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Public Profile" android:id="@+id/go_publicProfile">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_Login" android:text="Login"></Button>
+</TableRow><TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/widget34">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_editProfile" android:text="Edit Profile">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Manage Searches" android:id="@+id/go_manageSearches"></Button>
+</TableRow><TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/widget35">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_photoPicker" android:text="Photo Picker">
+</Button>
+</TableRow>
+
+<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/widget36">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/go_locationPrefs" android:text="Location prefs">
+</Button>
+</TableRow>
+
+
+</TableLayout>

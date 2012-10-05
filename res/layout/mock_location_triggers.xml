@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layoutContainer">
+
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row1">
+<Button android:layout_span="2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Here to Ignore Areas" android:id="@+id/buttonIgnoreHere"></Button>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row2"><Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/ignore_locations" android:id="@+id/spinnerIgnoreLocations"></Spinner>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete" android:id="@+id/buttonDelete"></Button>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row3"><Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/location_trigger_prefs" android:id="@+id/spinnerLocationTriggerPrefs"></Spinner>
+</TableRow><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row4">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Minimum match threshold" android:id="@+id/textMatchThreshold"></TextView>
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/ten_percent" android:id="@+id/spinnerMatchThreshold"></Spinner>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="50px" android:id="@+id/row5"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply" android:layout_span="2" android:layout_gravity="bottom|center" android:id="@+id/buttonApply"></Button>
+</TableRow>
+</TableLayout>

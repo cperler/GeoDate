@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">GeoDate</string>
+	<string name="db_name">GEODATE</string>
+	<string name="prefs_name">GEODATE_PREFS</string>
+	<string name="prefs_key_version">VERSION</string>
+	
+	
+	<string name="available_proxy_calls_label"><font fgcolor="#ffffffff"><b>Available proxy calls:</b></font></string>
+	<string name="mapskey">0MIcuF23Qfh1BsDdpjw_iMLsowoLkE8tdrzUNxg</string>
+	<string name="biteme1">0MIcuF23Qfh1BsDdpjw_iMLsowoLkE8tdrzUNxg</string>
+	    
+	<string name="my_gender_spinner_prompt">My Gender</string>
+	<string name="my_age_spinner_prompt">My Age</string>
+	<string name="their_gender_spinner_prompt">What Gender?</string>
+	<string name="their_min_age_spinner_prompt">Minimum Age</string>
+	<string name="their_max_age_spinner_prompt">Maximum Age</string>	
+	<string name="service_started">The tracking service has started...</string>
+	<string name="service_label">Tracking Service</string>
+	<string name="distance_away_prompt">Search Within...</string>
+	<string name="ethnicity_button">Ethnicity\nPreference</string>
+	
+	<string name="default_profile_id">1</string>
+</resources>

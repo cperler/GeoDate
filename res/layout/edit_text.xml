@@ -1,0 +1,9 @@
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/layoutContainer"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:layout_margin="5px" android:text="Example - editing a free-form text field:  " android:id="@+id/textNote"></TextView><LinearLayout android:layout_height="wrap_content" android:paddingTop="20px" android:layout_width="fill_parent" android:layout_margin="8px" android:id="@+id/layoutContent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your Name: " android:id="@+id/textName"></TextView><EditText android:layout_height="wrap_content" android:text="Alexia Ho" android:layout_marginLeft="10px" android:layout_width="fill_parent" android:id="@+id/editName"></EditText>
+</LinearLayout>
+
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/layoutButtons"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ok" android:id="@+id/ok"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:id="@+id/cancel"></Button></LinearLayout>
+
+
+</LinearLayout>

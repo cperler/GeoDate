@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+	android:background="@color/black" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/layoutContainer">
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/layoutOuterLogo"><ImageButton android:src="@drawable/hot_chick" android:layout_height="100px" android:layout_width="100px" android:scaleType="fitXY" android:adjustViewBounds="true" android:paddingBottom="7px" android:paddingLeft="5px" android:paddingRight="5px" android:paddingTop="3px" android:layout_gravity="center_vertical" android:id="@+id/imageLogo">
+	</ImageButton><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center_vertical" android:id="@+id/layoutInnerLogo">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textSize="13.5pt" android:id="@+id/textLogo" android:text="GeoDate">
+		</TextView>
+		<TextView android:layout_height="wrap_content" android:text="Foshizzle" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/textCatchPhrase">
+			</TextView>
+	</LinearLayout></LinearLayout>
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="bottom|center_horizontal" android:id="@+id/layoutContact"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="25px" android:text="About us:  We be the shiznit" android:textStyle="bold" android:id="@+id/textAbout"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="35px" android:text="Help: www.gohoes.com" android:textStyle="bold" android:id="@+id/textSiteLink"></TextView>
+</LinearLayout>
+
+
+
+</LinearLayout>

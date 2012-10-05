@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" android:gravity="center_horizontal" android:id="@+id/layoutContainer">
+  
+  <TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Quick Search..." android:textSize="10pt" android:textStyle="bold" android:layout_gravity="center" android:layout_marginBottom="25pt" android:layout_marginTop="20pt"></TextView>
+  
+  <LinearLayout 
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">  	
+    <TextView	    
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Find me a "
+      android:textSize="24sp"/>  
+    <Spinner 
+      android:id="@+id/their_gender"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:prompt="@string/their_gender_spinner_prompt"
+      android:layout_gravity="center" android:entries="@array/gender_informal"/>  
+    <TextView		  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=","
+      android:textSize="24sp"/>    
+  </LinearLayout>
+
+  <LinearLayout
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">
+    <TextView	    
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="between "
+      android:textSize="24sp"/>
+    <Spinner
+      android:id="@+id/their_min_age"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:prompt="@string/their_min_age_spinner_prompt"
+      android:layout_gravity="center"/>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=" and "
+      android:textSize="24sp"/>    
+  </LinearLayout>
+  
+  <LinearLayout
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">    
+    <Spinner
+      android:id="@+id/their_max_age"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:prompt="@string/their_max_age_spinner_prompt"
+      android:layout_gravity="center"/>
+    <TextView	    
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=" year's old."
+      android:textSize="24sp"/>
+  </LinearLayout>
+  
+  <LinearLayout
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">
+  	<TextView
+  	  android:layout_width="wrap_content"
+  	  android:layout_height="wrap_content"
+  	  android:text="Search within "
+  	  android:textSize="18sp"/>
+  	<Spinner
+      android:id="@+id/distance_away"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:prompt="@string/distance_away_prompt"      
+      android:layout_gravity="center" android:entries="@array/search_radius"/>
+  	<TextView
+  	  android:layout_width="wrap_content"
+  	  android:layout_height="wrap_content"
+  	  android:text=" miles."
+  	  android:textSize="18sp"/>
+  </LinearLayout>           		
+
+
+
+</LinearLayout>

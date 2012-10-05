@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layoutContainer">
+
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row1"><TimePicker android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/AddTimeBtn" android:id="@+id/timeTriggers"></TimePicker></TableRow><TableRow android:layout_width="fill_parent" android:layout_height="100px" android:layout_marginBottom="25px" android:id="@+id/row2">
+
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/hours" android:layout_toLeftOf="@+id/AddTimeBtn" android:layout_alignParentLeft="true" android:id="@+id/spinnerHours"></Spinner><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/HourSpin" android:text="Add" android:id="@+id/buttonAdd"></Button>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/row3"><Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/mock_times" android:id="@+id/spinnerTimes"></Spinner>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete" android:id="@+id/buttonDelete"></Button>
+</TableRow>
+<TableRow android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="50px" android:id="@+id/row4"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply" android:layout_span="2" android:layout_gravity="bottom|center" android:id="@+id/buttonApply"></Button>
+</TableRow>
+
+</TableLayout>

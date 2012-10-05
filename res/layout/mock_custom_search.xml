@@ -1,0 +1,36 @@
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"><TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="10pt" android:textStyle="bold" android:layout_gravity="center" android:layout_marginBottom="5pt" android:layout_marginTop="10pt" android:text="Custom Search..."></TextView>
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10px" android:text="Distance from Me" android:textStyle="bold"></TextView><Spinner android:id="@+id/Spinner01" android:layout_width="wrap_content" android:entries="@array/search_radius" android:layout_height="40px"></Spinner></TableRow><TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10px" android:text="Gender" android:layout_gravity="center_vertical" android:textStyle="bold" android:id="@+id/TextView03"></TextView><RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="40px"><RadioButton android:id="@+id/RadioButton01" android:layout_width="wrap_content" android:text="Male" android:layout_height="40px"></RadioButton><RadioButton android:id="@+id/RadioButton02" android:layout_width="wrap_content" android:text="Female" android:layout_marginLeft="10px" android:layout_height="40px"></RadioButton>
+</RadioGroup>
+
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10px" android:layout_gravity="center_vertical" android:textStyle="bold" android:id="@+id/TextView03" android:text="As young as..."></TextView><Spinner
+      android:id="@+id/their_min_age"
+      android:prompt="@string/their_min_age_spinner_prompt"
+      android:layout_width="fill_parent" android:layout_height="40px"/></TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10px" android:layout_gravity="center_vertical" android:textStyle="bold" android:id="@+id/TextView03" android:text="As mature as..."></TextView> <Spinner
+      android:id="@+id/their_max_age"
+      android:prompt="@string/their_max_age_spinner_prompt" android:layout_width="fill_parent" android:layout_height="40px"/>
+
+
+
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10px" android:layout_gravity="center_vertical" android:textStyle="bold" android:id="@+id/TextView03" android:text="Education"></TextView> <Spinner android:layout_width="fill_parent" android:id="@+id/their_education" android:entries="@array/education_level" android:layout_height="40px"/>
+
+
+
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10px" android:layout_gravity="center_vertical" android:textStyle="bold" android:id="@+id/TextView03" android:text="Income Level"></TextView> <Spinner android:layout_width="fill_parent" android:layout_height="40px" android:entries="@array/income_level" android:id="@+id/their_income"/>
+
+
+
+</TableRow><TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:id="@+id/Button04" android:layout_width="wrap_content" android:text="Ethnicities" android:layout_marginRight="10px" android:layout_height="40px"></Button><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Any of Asian, Caucasian or Inter-Racial" android:layout_gravity="center"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:id="@+id/Button04" android:layout_width="wrap_content" android:layout_marginRight="10px" android:text="Height" android:layout_height="40px"></Button><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No preference set" android:layout_gravity="center_vertical"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:id="@+id/Button04" android:layout_width="wrap_content" android:layout_marginRight="10px" android:layout_height="40px" android:text="Body Type"></Button><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:text="Anything except Large or Stocky"></TextView>
+</TableRow></TableLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
